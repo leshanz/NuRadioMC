@@ -115,7 +115,7 @@ class showerParameters(Enum):
     interferometric_shower_axis = 121  # shower axis (direction) derived from beam-formed signal
     interferometric_core = 122  # core (intersection of shower axis with obs plane) derived from beam-formed signal
 
-<<<<<<< HEAD
+
 class particleParameters(Enum):
     parent_id = 1 # the entry number of the parent particle, None if primary.
     zenith = 2  # the zenith angle of the incoming neutrino direction
@@ -188,8 +188,6 @@ class generatorAttributes(Enum):
     NuRadioMC_EvtGen_version_hash = 201
     NuRadioMC_version = 202
     NuRadioMC_version_hash = 203
-=======
->>>>>>> f0c1412495e0a6ec0f83ae815b58e284d9b08e97
 
 class eventParameters(Enum):
     sim_config = 1  # contents of the config file that the NuRadioMC simulation was run with
